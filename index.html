@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <title>Ремонт консолей PlayStation, PS4, PS5, Xbox новою поштою</title>
+  <link rel="canonical" href="https://remontconsoley.od.ua/" />
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta name="description" content="Професійний ремонт чистка ігрових консолей 
+PlayStation, Xbox, Nintendo, ноутбуків в Одесі. Швидко, якісно, з гарантією.">
+  <meta name="keywords" content="ремонт консолей Одесса, ремонт PS4 Одесса, 
+ремонт Xbox Одесса, чистка PlayStation, запчасти для Nintendo Switch, прошивка 
+PS4, ремонт DualSense, ремонт консолей Одеса, замiна термопасти PS5, заміна HDMI
+ порту, ремонт джойстика Xbox One, замена HDMI PS5, ремонт кулера PlayStation 4,
+ заміна вентилятора PS4, ремонт Joy-Con Одесса, чистка кулера PS5 Одеса, замена 
+гнезда зарядки DualSense, прошивка Nintendo Switch, відновлення прошивки PS4, 
+ремонт HDD Xbox, ремонт ноутбуков Одесса, чистка ноутбука Одеса, апгрейд 
+комп'ютера Одеса, ремонт ПК Одеса, заміна термопасти ноутбук, обслуговування 
+комп'ютера Одеса">
+  <meta name="robots" content="index,follow">
+
+  <!-- Встроенные стили (style.css) -->
+  <style>
+    /* Скидання базових стилів */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1f1f1f 25%, #000000 100%);
+      color: #fff;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    /* Щоб працювало лише на десктопах, використайте @media */
+    @media (min-width: 1024px) {
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      body {
+        background: url("images/psn.webp") center center no-repeat fixed;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    }
+
+    /* ============================
+       ШАПКА САЙТУ
+    ============================ */
+    header {
+      background: ##111;
+      padding: 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #00ff7f;
+    }
+    header nav a {
+      color: #fff;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    header nav a:hover {
+      color: #00ff7f;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    .social a {
+      display: inline-block;
+      margin: 0 5px;
+    }
+    .social img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.3s;
+    }
+    .social img:hover {
+      transform: scale(1.7);
+    }
+    /* Меню в одну строку */
+    header nav {
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+    header nav a {
+      display: inline-block;
+      color: #fff;
+      margin: 0 7px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    header nav a:hover {
+      color: #ff8300;
+    }
+
+    /* ============================
+       Анімований банер (Hero)
+    ============================ */
+    .hero {
+      position: relative;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      -webkit-animation: fadeSlideshow 25s infinite ease-in-out;
+      will-change: background-image;
+      transform: translateZ(0);
+    }
+    @-webkit-keyframes fadeSlideshow {
+      0%, 20%   { background-image: url('images/Ремонт_PS4_в_Одесі.webp'); }
+      20%, 40%  { background-image: url('images/ремонт_геймпадів.webp'); }
+      40%, 60%  { background-image: url('images/ремонт_Xbox_Одеса.webp'); }
+      60%, 80%  { background-image: url('images/ремонт_консолей_Одеса.webp'); }
+      80%, 100% { background-image: url('images/ремонт_Joy-Con.webp'); }
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      color: #00ff7f;
+      -webkit-animation: textGlow 2s infinite alternate;
+      animation: textGlow 2s infinite alternate;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .hero a {
+      background: #00ff7f;
+      color: #000;
+      padding: 10px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .hero a:hover {
+      background: #00cc66;
+      transform: scale(1.05);
+    }
+    @-webkit-keyframes textGlow {
+      0%   { text-shadow: 0 0 5px #00ff7f; }
+      100% { text-shadow: 0 0 20px #00ff7f; }
+    }
+    @keyframes textGlow {
+      0%   { text-shadow: 0 0 5px #00ff7f; }
+      100% { text-shadow: 0 0 20px #00ff7f; }
+    }
+
+    /* ============================
+       Секції з відступами
+    ============================ */
+    section {
+      padding: 40px 20px;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2em;
+      color: #00ff7f;
+      text-transform: uppercase;
+    }
+
+    /* ============================
+       Послуги (services)
+    ============================ */
+    #services {
+  padding: 40px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2rem;
+  color: #00ff7f;
+  margin-bottom: 25px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.service {
+  background: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service:hover {
+  transform: translateY(-8px);
+}
+
+.service-img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.service-img img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  display: block;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 15px;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #ccc;
+  padding: 0 15px 20px;
+  flex-grow: 1;
+}
+
+    /* ============================
+       Галерея
+    ============================ */
+    .gallery, .services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img, .service img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+    /* ============================
+       Про нас
+    ============================ */
+    .about-section {
+      background: #222;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .about-section h2 {
+      color: #00ff7f;
+      margin-bottom: 20px;
+    }
+    .about-content {
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .about-content p {
+      margin-bottom: 20px;
+    }
+    .about-features {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
+    .about-features li {
+      background: #333;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+    .about-features li strong {
+      color: #00ff7f;
+    }
+
+    /* Кнопки заявки (десктоп/мобильная) */
+    .bottom-cta-desktop,
+    .bottom-cta-mobile {
+      position: fixed;
+      z-index: 999;
+    }
+    .bottom-cta-telegram-desktop,
+    .bottom-cta-telegram-mobile {
+      position: fixed;
+      z-index: 999;
+      bottom: 20px;
+      left: 20px;
+    }
+    .bottom-cta-desktop {
+      display: block;
+      bottom: 20px;
+      right: 20px;
+    }
+    .bottom-cta-desktop button {
+      background: #00ff7f;
+      color: #000;
+      padding: 15px 30px;
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .bottom-cta-desktop button:hover {
+      background: #00cc66;
+      transform: scale(1.05);
+    }
+    .bottom-cta-mobile {
+      display: none;
+    }
+    .bottom-cta-telegram-desktop,
+    .bottom-cta-telegram-mobile {
+      position: fixed;
+      z-index: 999;
+      bottom: 20px;
+      left: 20px;
+    }
+    .bottom-cta-telegram-desktop a,
+    .bottom-cta-telegram-mobile a {
+      display: inline-flex;
+      align-items: center;
+      background: #0088cc;
+      color: #fff;
+      padding: 15px 20px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .bottom-cta-telegram-desktop a:hover,
+    .bottom-cta-telegram-mobile a:hover {
+      background: #0077aa;
+      transform: scale(1.05);
+    }
+    .tg-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      background: url("images/ремонт_консолей_в_Odessa.webp") no-repeat center 
+center / contain;
+    }
+
+    /* ДЕСКТОП (≥ 769px) */
+    @media (min-width: 769px) {
+      .bottom-cta-desktop {
+        display: block;
+        bottom: 20px;
+        right: 20px;
+      }
+      .bottom-cta-desktop button {
+        padding: 15px 25px;
+        font-size: 1em;
+      }
+      .bottom-cta-mobile {
+        display: none;
+      }
+      .bottom-cta-telegram-desktop {
+        display: block;
+      }
+      .bottom-cta-telegram-mobile {
+        display: none;
+      }
+    }
+
+    /* МОБИЛЬНАЯ (≤ 768px) */
+    @media (max-width: 768px) {
+      .bottom-cta-desktop {
+        display: none;
+      }
+      .bottom-cta-mobile {
+        display: block;
+        bottom: 55px;
+        right: -30px;
+        width: 120px;
+        height: auto;
+      }
+      .bottom-cta-mobile button {
+        width: 65%;
+        background: #00ff7f;
+        color: #000;
+        padding: 10px;
+        font-size: 1em;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        transition: background 0.3s, transform 0.3s;
+        cursor: pointer;
+      }
+      .bottom-cta-mobile button:hover {
+        background: #00cc66;
+        transform: scale(1.05);
+      }
+      .bottom-cta-telegram-desktop {
+        display: none;
+      }
+      .bottom-cta-telegram-mobile {
+        display: block;
+        width: 120px;
+        bottom: 55px;
+        left: 10px;
+      }
+      .bottom-cta-telegram-mobile a {
+        font-size: 1em;
+        padding: 10px;
+        text-align: center;
+      }
+      .bottom-cta-telegram-mobile .tg-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+      }
+    }
+
+    /* Кнопка (фіксована) */
+    .bottom-cta {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    .bottom-cta button {
+      background: #00ff7f;
+      color: #000;
+      padding: 15px 30px;
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .bottom-cta button:hover {
+      background: #00cc66;
+      transform: scale(1.05);
+    }
+
+    /* Слайдер відгуків */
+    .reviews-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 15px;
+  text-align: center;
+  position: relative;
+}
+
+.reviews-section h2 {
+  font-size: 2rem;
+  color: #00ff7f;
+  margin-bottom: 25px;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  display: none;
+}
+
+.slide.active {
+  opacity: 1;
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  max-height: 1300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 2rem;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background 0.3s ease;
+  z-index: 10;
+}
+
+.slide-btn:hover {
+  background: rgba(0,0,0,0.9);
+}
+
+.slide-btn.prev {
+  left: 15px;
+}
+
+.slide-btn.next {
+  right: 15px;
+}
+
+    /* Блок с видео (YouTube) */
+    .video-section {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .video-section h2 {
+      color: #00ff7f;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 177.78%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Блок карты (Google Maps) */
+    #map {
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-top: 40px;
+      text-align: center;
+    }
+    #map h2 {
+      margin-bottom: 20px;
+    }
+    .map-container {
+      position: relative;
+      width: 100%;
+      height: 450px;
+      border: none;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      loading: lazy;
+    }
+
+    /* Футер */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #fff;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+
+    /* Модальное окно (форма) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.7);
+    }
+    .modal-content {
+      background: #222;
+      margin: 10% auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 8px;
+      position: relative;
+      box-shadow: 0 0 15px rgba(0,0,0,0.8);
+      -webkit-animation: modalFadeIn 0.5s;
+      animation: modalFadeIn 0.5s;
+    }
+    @-webkit-keyframes modalFadeIn {
+      from { opacity: 0; -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+      to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+    }
+    @keyframes modalFadeIn {
+      from { opacity: 0; -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+      to   { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+    }
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: #fff;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+    .close-btn:hover {
+      color: #00ff7f;
+    }
+    .modal-content h2 {
+      margin-bottom: 15px;
+      font-size: 1.8em;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 1.6;
+    }
+    .modal-content form input,
+    .modal-content form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px;
+      border: 1px solid #444;
+      border-radius: 5px;
+      background: #333;
+      color: #fff;
+      font-size: 1em;
+    }
+    .modal-content form button {
+      background: #00ff7f;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1em;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .modal-content form button:hover {
+      background: #00cc66;
+      transform: scale(1.05);
+    }
+
+    /* Адаптив для плаваючої кнопки */
+    @media (max-width: 768px) {
+      .bottom-cta {
+        bottom: 10px;
+        right: 10px;
+      }
+    }
+
+    .video-container .video-placeholder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    .video-container .video-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .video-container .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 64px;
+      color: #fff;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+      pointer-events: none;
+    }
+    .map-placeholder {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    .map-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .map-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    /* Contacts */
+   .contatcs-number {
+      color: #00ff7f;
+  }
+  .contacts-type{
+      color: #ff8300;
+  }
+  .contatcs-email {
+      color: #00ff7f;
+  }
+  .adress-item {
+      color: #ff8300;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка сайту -->
+  <header>
+    <h1>Ремонт консолей Одеса</h1>
+    <nav>
+      <a href="#services">Послуги</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#about">Про нас</a>
+      <a href="javascript:void(0)" onclick="openModal()">Контакти</a>
+    </nav>
+    <div class="social">
+      <a href="https://www.instagram.com/remontconsoley.od.ua/" target="_blank">
+        <img src="images/заміна_термопасти_консоль.webp" alt="ремонт компьютеров Одесса" width="30" height="30" loading="lazy">
+      </a>
+      <a href="https://t.me/KonstantinPS4" target="_blank">
+        <img src="images/ремонт_консолей_в_Odessa.webp" alt="ремонт консолей Одесса" width="30" height="30" loading="lazy">
+      </a>
+    </div>
+  </header>
+
+  <!-- Анімований банер Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Playstation Nintendo Xbox</h2>
+      <p>Чистка джойстиків та приставок !</p>
+      <a href="javascript:void(0)" onclick="openModal()">Залишити заявку</a>
+    </div>
+  </section>
+
+  <!-- Послуги -->
+<section id="services">
+  <h2>Наші послуги</h2>
+  <div class="services">
+    <div class="service">
+      <div class="service-img">
+        <img src="images/ремонт_PS4.webp" alt="Ремонт PlayStation" decoding="async" loading="lazy">
+      </div>
+      <h3>Ремонт PlayStation</h3>
+      <p>Виконуємо чистку, заміну термопасти від 700грн — Ремонт геймпадів та інших компонентів PlayStation від 250грн.</p>
+    </div>
+
+    <div class="service">
+      <div class="service-img">
+        <img src="images/ремонт_приставок.webp" alt="Ремонт Xbox" decoding="async" loading="lazy">
+      </div>
+      <h3>Ремонт Xbox</h3>
+      <p>Виконуємо чистку, заміну термопасти від 900грн — Ремонт геймпадів та інших компонентів від 250грн для Xbox та Ноутбуків.</p>
+    </div>
+
+    <div class="service">
+      <div class="service-img">
+        <img src="images/ремонт_PS5.webp" alt="Ремонт Nintendo" decoding="async" loading="lazy">
+      </div>
+      <h3>Ремонт Nintendo</h3>
+      <p>Якісний ремонт консолей Nintendo, включаючи заміну елементів живлення та дисплеїв від 400грн.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Галерея -->
+<section id="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/Ремонт_PS4_в_Одесі.webp" alt="Ремонт PS4 Одесса" decoding="async" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="images/ремонт_геймпадів.webp" alt="ремонт геймпадовy" decoding="async" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="images/ремонт_Xbox_Series.webp" alt="ремонт Xbox Series" decoding="async" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="images/заміна_термопрокладок PS4.webp" alt="заміна стиков PS4" decoding="async" loading="lazy">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Про нас -->
+  <section id="about" class="about-section">
+    <h2>Про нас</h2>
+    <div class="about-content">
+      <p>
+        Я Костянтин – майстер із багаторічним досвідом ремонту та налаштувань. Ігрові консолі (PlayStation, Xbox, Nintendo), а також ПК і ноутбуки. Приймаю техніку до себе додому за адресою в Одесі або поштою по Україні.
+      </p>
+      <ul class="about-features">
+        <li><strong>Багаторічний досвід:</strong> виконую ремонти різної складності швидко та професійно.</li>
+        <li><strong>Зручне обслуговування:</strong> Прийом техніки за адресою або поштою.</li>
+        <li><strong>Комплексні послуги:</strong> чистка, збірка, заміна комплектуючих, встановлення ОС.</li>
+        <li><strong>Гарантія якості:</strong> використання перевірених деталей та відповідальний підхід до кожного замовлення.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Кнопка заявки для десктопа -->
+  <div class="bottom-cta-desktop">
+    <button onclick="openModal()">Залишити заявку</button>
+  </div>
+
+  <!-- Кнопка заявки для мобильных -->
+  <div class="bottom-cta-mobile">
+    <button onclick="openModal()">Заявка</button>
+  </div>
+
+  <!-- Кнопка чата с Telegram (Desktop) -->
+  <div class="bottom-cta-telegram-desktop">
+    <a href="https://t.me/PS4obslugabot" target="_blank">
+      <span class="tg-icon"></span>
+      Чат в Telegram
+    </a>
+  </div>
+  <!-- Кнопка чата (Mobile) -->
+  <div class="bottom-cta-telegram-mobile">
+    <a href="https://t.me/PS4obslugabot" target="_blank">
+      <span class="tg-icon"></span>
+      Чат
+    </a>
+  </div>
+
+  <!-- Слайдер відгуків -->
+<!-- Слайдер відгуків -->
+<section class="reviews-section" id="reviews">
+  <h2>Відгуки клієнтів</h2>
+  <div class="slider-container">
+    <button class="slide-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+    <div class="slider">
+      <div class="slide active"><img src="images/Перепрошивка_PS4.webp" alt="Перепрошивка PS4" loading="lazy"></div>
+      <div class="slide"><img src="images/Відновлення_консолі.webp" alt="Відновлення після перегріву консолі" loading="lazy"></div>
+      <div class="slide"><img src="images/Ремонт_кулера_PlayStation.webp" alt="Ремонт кулера PlayStation" loading="lazy"></div>
+      <div class="slide"><img src="images/Модернізація_PS5_(установка_SSD).webp" alt="Модернізація PS5 (установка SSD)" loading="lazy"></div>
+      <div class="slide"><img src="images/Xbox.webp" alt="Пайка материнської плати Xbox" loading="lazy"></div>
+      <div class="slide"><img src="images/Заміна_USB-портів_PlayStation.webp" alt="Заміна USB-портів PlayStation" loading="lazy"></div>
+      <div class="slide"><img src="images/DualSense.webp" alt="Ремонт геймпада DualSense" loading="lazy"></div>
+      <div class="slide"><img src="images/Усунення_помилки_«Blue_Light_of_Death»_(BLOD)_PS4.webp" alt="Усунення помилки «Blue Light of Death» (BLOD) PS4" loading="lazy"></div>
+      <div class="slide"><img src="images/Заміна_HDMI_порту_Xbox_One_S.webp" alt="Заміна HDMI порту Xbox One S" loading="lazy"></div>
+    </div>
+    <button class="slide-btn next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+</section>
+
+
+
+  <!-- Новий блок з відео моєї роботи -->
+  <section class="video-section" id="my-video">
+    <h2>Відео моєї роботи</h2>
+    <div class="video-container">
+      <div class="video-placeholder" onclick="loadVideo()">
+        <img src="https://img.youtube.com/vi/naoEDKpprZY/maxresdefault.jpg" alt="Прев'ю відео моєї роботи" loading="lazy" width="1280" height="720">
+        <div class="play-button">&#9658;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Карта Google Maps -->
+  <section id="map">
+    <h2>Район Вимпелу</h2>
+    <div class="map-container">
+      <div class="map-placeholder" onclick="loadMap()">
+        <div class="map-overlay">Показати карту</div>
+        <img 
+      src="images/XboxSeriesX.webp" alt="series_S">
+      </div>
+    </div>
+  </section>
+
+  <!-- Модальне вікно (Контактна форма + Контакти) -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Зв'яжіться з нами</h2>
+      <div class="contact-info">
+        <p class="contacts-item">
+              <span class="contacts-type"> Телефон: </span>
+              <a href="tel:+380993085572" class="contatcs-number"
+                >+38 099 308 55 72</a>
+            </p>
+        <p class="contacts-item">
+              <span class="contacts-type"> Пошта: </span>
+              <a href="mailto:kostik72017600@gmail.com" class="contatcs-email"
+                >kostik72017600@gmail.com</a>
+            </p>
+        <p class="adress-item">
+              <span class="adress-type"> Наша адреса: </span>
+              <a href="https://maps.app.goo.gl/Z5AjdKpWUvA4dPqUA" class="contatcs-email" target= _blanc
+                >Одеса, Героїв прикордонників 4</a>
+            </p>
+      </div>
+      <form action="https://formspree.io/f/mkgokqav" method="POST">
+        <label>
+          Ваш телефон:
+          <input type="tel" name="telephone" required>
+        </label>
+        <label>
+          Опишіть звернення:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Відправити</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <footer>
+    <p>&copy; Одеса 2025 Ремонт ігрових консолей та ноутбуків.</p>
+  </footer>
+
+  <!-- Встроенные скрипты (script.js) -->
+  <script>
+    /* Модальне вікно */
+    const modal = document.getElementById("contactModal");
+
+    function openModal() {
+      modal.style.display = "block";
+    }
+
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    // Закриття форми при натисканні у пусту область
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+
+    /* Слайдер відгуків */
+    let currentSlide = 0;
+const slides = document.querySelectorAll('.reviews-section .slide');
+
+function showSlide(index) {
+  if (index >= slides.length) {
+    currentSlide = 0;
+  }
+  if (index < 0) {
+    currentSlide = slides.length - 1;
+  }
+
+  slides.forEach((slide, idx) => {
+    slide.classList.toggle('active', idx === currentSlide);
+  });
+}
+
+function changeSlide(direction) {
+  currentSlide += direction;
+  showSlide(currentSlide);
+}
+
+// Инициализация первого слайда
+showSlide(currentSlide);
+
+
+    function loadVideo() {
+      const container = document.querySelector('.video-container');
+      container.innerHTML = '<iframe src="https://www.youtube.com/embed/naoEDKpprZY?autoplay=1" title="Відео моєї роботи (YouTube)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+    }
+
+    function loadMap() {
+      const mapContainer = document.querySelector('.map-container');
+      mapContainer.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5499.393288439936!2d30.733252!3d46.434892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633bd5e81ae87%3A0xb56e24d1a633003a!2z0LLRg9C70LjRhtGPINCT0LXRgNC-0ZfQsi3Qn9GA0LjQutC-0YDQtNC-0L3QvdC40LrRltCyLCA0LCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1suk!2sua!4v1743707254159!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+    }
+
+    window.addEventListener('load', function() {
+      const gtagScript = document.createElement('script');
+      gtagScript.src = "";
+      gtagScript.async = true;
+      document.head.appendChild(gtagScript);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', );
+    });
+  </script>
+</body>
+</html>
